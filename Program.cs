@@ -1,4 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using Microsoft.Azure.Management.AppService.Fluent;
@@ -70,7 +70,7 @@ namespace ManageLinuxWebAppSqlConnection
                         .WithRegion(Region.USWest)
                         .WithExistingResourceGroup(rgName)
                         .WithNewLinuxPlan(PricingTier.StandardS1)
-                        .WithBuiltInImage(RuntimeStack.PHP_5_6_23)
+                        .WithBuiltInImage(RuntimeStack.PHP_5_6)
                         .DefineSourceControl()
                             .WithPublicGitRepository("https://github.com/ProjectNami/projectnami")
                             .WithBranch("master")
