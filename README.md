@@ -4,19 +4,19 @@ languages:
 - csharp
 products:
 - azure
-services: App-Service
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: App-Service
+- platforms: dotnet
 ---
 
 # Getting started on managing data connections (such as SQL Database and Redis Cache) for Web Apps on Linux using C#  #
 
-          Azure App Service basic sample for managing web apps.
-           - Create a SQL database in a new SQL server
-           - Create a web app deployed with Project Nami (WordPress's SQL Server variant)
-               that contains the app settings to connect to the SQL database
-           - Update the SQL server's firewall rules to allow the web app to access
-           - Clean up
+ Azure App Service basic sample for managing web apps.
+  - Create a SQL database in a new SQL server
+  - Create a web app deployed with Project Nami (WordPress's SQL Server variant)
+      that contains the app settings to connect to the SQL database
+  - Update the SQL server's firewall rules to allow the web app to access
+  - Clean up
 
 
 ## Running this Sample ##
