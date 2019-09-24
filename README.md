@@ -8,6 +8,7 @@ extensions:
 - services: App-Service
 - platforms: dotnet
 description: "Azure App Service basic sample for managing web apps."
+urlFragment: get-started-data-connections-linux
 ---
 
 # Getting started on managing data connections (such as SQL Database and Redis Cache) for Web Apps on Linux using C#  #
