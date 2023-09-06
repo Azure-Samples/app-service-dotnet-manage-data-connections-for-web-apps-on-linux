@@ -175,7 +175,7 @@ namespace ManageLinuxWebAppSqlConnection
                 // Print selected subscription
                 Utilities.Log("Selected subscription: " + client.GetSubscriptions().Id);
 
-                RunSample(client);
+                await RunSample(client);
             }
             catch (Exception e)
             {
